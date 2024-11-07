@@ -13,6 +13,11 @@ const projects = [
     url: "https://github.com/ItsBeans/translator",
   },
   {
+    title: "student exam performance",
+    description: "this project analyses and predicts student performance in exams using various features.",
+    url: "https://github.com/ItsBeans/student-exam-performance",
+  },
+  {
     title: "grocery shopping mobile app",
     description: "users can scan the barcode of items and then add them to basket for payment. created for a grocery store.",
     private: true,
@@ -22,6 +27,7 @@ const projects = [
     description: "working on something big",
     comingSoon: true,
   },
+   
   // Add more projects here as needed
 ];
 
