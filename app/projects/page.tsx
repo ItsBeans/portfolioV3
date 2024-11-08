@@ -5,7 +5,7 @@ const projects = [
   {
     title: "portfolio website",
     description: "the website you are at right now! built with Next.js and Tailwind CSS, showcasing my projects and skills.",
-    url: "https://bennyrocys.dev",
+    url: "https://github.com/ItsBeans/portfolioV3",
   },
   {
     title: "natural language translation",
