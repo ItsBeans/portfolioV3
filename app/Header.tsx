@@ -22,7 +22,7 @@ export default function Header() {
           pathname === '/projects' ? 'text-black' : 'text-gray-400'
         }`}
       >
-        projects 💻
+        projects 
       </Link>
       <Link
         href="/reading-list"
@@ -30,7 +30,7 @@ export default function Header() {
           pathname === '/reading-list' ? 'text-black' : 'text-gray-400'
         }`}
       >
-        books 📖
+        books 
       </Link>
       <Link
         href="/food"
@@ -38,7 +38,7 @@ export default function Header() {
           pathname === '/food' ? 'text-black' : 'text-gray-400'
         }`}
       >
-        food 🍕
+        food 
       </Link>
     </header>
   );
