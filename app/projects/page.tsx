@@ -42,32 +42,18 @@ export default function Projects() {
       </h1>
       <p className="text-lg text-gray-600 mb-8">a collection of projects showcasing my skills and experience in software engineering, machine learning, and data science.</p>
 
-      <ul className="space-y-8">
-        {projects.map((project, index) => (
-          <li key={index} className="p-6 border rounded-lg hover:shadow-lg transition-shadow">
-            <h2 className="text-2xl font-semibold">{project.title}</h2>
-            <p className="text-gray-500 mt-2">{project.description}</p>
-            {project.url ? (
-              <a
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block mt-4 px-4 py-2 bg-gray-400 text-white font-semibold rounded hover:bg-gray-600 transition-colors"
-              >
-                view repository
-              </a>
-            ) : project.comingSoon ? (
-              <span className="inline-block mt-4 px-4 py-2 bg-gray-400 text-white font-semibold rounded cursor-not-allowed">
-                coming soon
-              </span>
-            ) : project.private ? (
-              <span className="inline-block mt-4 px-4 py-2 bg-gray-400 text-white font-semibold rounded cursor-not-allowed">
-              access restricted (university project)
-            </span>
-            ) : null}
-          </li>
-        ))}
-      </ul>
+      <ul className="space-y-6">
+  {projects.map((project) => (
+    <li key={project.title}>
+      <h2 className="font-semibold text-xl text-gray-900 hover:text-blue-600 hover:underline transition-all duration-200 mt-1 ">
+        <a href={project.url} target="_blank" rel="noopener noreferrer">
+          {project.title}
+        </a>
+      </h2>
+      <p className="text-lg text-gray-500 leading-relaxed">{project.description}</p>
+    </li>
+  ))}
+</ul>
     </div>
     <Footer/>
     </>
