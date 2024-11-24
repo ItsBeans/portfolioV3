@@ -42,15 +42,8 @@ export default function Reading() {
           <p className="text-gray-500">by Peter Bruce and Andrew Bruce - A great practical guide for data scientists.</p>
         </li>
 
-        <li>
-          <h2 className="text-xl font-semibold">Generative Adversarial Nets</h2>
-          <p className="text-gray-500">by Goodfellow et al. - Presents GANs, a popular architecture for generative models.</p>
-        </li>
-
-        <li>
-          <h2 className="text-xl font-semibold">Harry Potter</h2>
-          <p className="text-gray-500">by J. K. Rowling - Classic series, the movies are great too.</p>
-        </li>
+     
+        
       </ul>
     </div>
     <Footer/>
