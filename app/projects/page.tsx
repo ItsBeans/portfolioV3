@@ -38,7 +38,7 @@ export default function Projects() {
     <Header/>
     <div className="max-w-3xl mx-auto p-8">
       <h1 className="text-6xl font-bold text-black italic mb-12">
-        projects <span role="img" aria-label="laptop"></span>
+        projects 
       </h1>
       <p className="text-lg text-gray-600 mb-8">a collection of projects showcasing my skills and experience in software engineering, machine learning, and data science.</p>
 
