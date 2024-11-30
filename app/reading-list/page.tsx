@@ -7,7 +7,7 @@ export default function Reading() {
         <Header/>
         <div className="max-w-3xl mx-auto p-8">
       <h1 className="text-6xl font-bold text-black italic mb-12">
-        reading list <span role="img" aria-label="book">📖</span>
+        reading list 
       </h1>
       <p className="text-lg text-gray-600 mb-8">a collection of books / papers / textbooks I’ve enjoyed and recommend you to read.</p>
       
