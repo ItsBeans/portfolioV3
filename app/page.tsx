@@ -6,15 +6,6 @@ export default function Home() {
   return (
     <>
      <Header />
-      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8M5X53QG6X"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8M5X53QG6X');
-</script>
      <div className="max-w-3xl mx-auto p-12 text-left ">
     <h1 className="text-6xl font-bold text-black italic mb-16" style={{ fontFamily: 'Montserrat, sans-serif' }}>
   welcome to my portfolio
