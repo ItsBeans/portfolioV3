@@ -14,7 +14,7 @@ export default function Home() {
         {/* Left Column: Text Content */}
         <div className="flex-grow mb-8 md:mb-0 md:w-2/3">
           <p className="text-lg text-gray-700 mb-4 leading-relaxed space-y-6">
-          my name is Benny <span className="font-semibold">(Beans is my nickname)</span>.
+          my name is Benny.
             <br/>
             <br/>
             i’m a 21-year-old software engineer based in <span className="font-semibold">London</span>.
