@@ -13,8 +13,8 @@ export default function Home() {
      <Header />
      <div className="max-w-3xl mx-auto p-12 text-left ">
      <WordRotate
-      className="text-8xl font-bold text-gray-700 dark:text-white"
-      words={["hello", "안녕하세요", "你好", "こんにちは", "bonjour", "ciao", "labas"]}
+      className="text-8xl text-gray-700 dark:text-white"
+      words={["hello", "안녕하세요", "你好", "こんにちは", "bonjour", "ciao"]}
     />
 <div className="flex flex-col md:flex-row md:space-x-8 md:gap-12">
         {/* Left Column: Text Content */}
