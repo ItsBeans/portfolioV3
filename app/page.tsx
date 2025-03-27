@@ -28,7 +28,7 @@ export default function Home() {
             i recently completed my undergrad degree in <span className="font-semibold">Computer Science with AI</span> at <span className="font-semibold">King's College London</span>.
           </p>
           <ul className="list-disc pl-5 text-lg text-gray-700 dark:text-gray-300 space-y-2">
-            <li>i'm really interested in <span className="font-semibold">data and machine learning</span></li>
+            <li>i'm really interested in <span className="font-semibold">machine learning</span></li>
             <li>i enjoy <span className="font-semibold">video games</span>, <span className="font-semibold">music</span>, <span className="font-semibold">chess</span>, and <span className="font-semibold">eating good food</span>.</li>
           </ul>
           <p className="text-lg text-gray-700 dark:text-gray-300 mt-4">long term, i want to build something <span className="font-semibold">impactful</span> :)</p>
